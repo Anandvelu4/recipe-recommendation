@@ -11,6 +11,13 @@ st.header("Christy Recipe BOT")
 st.subheader("Love for Cooking ")
 # Display Images
 
+# import Image from pillow to open images
+from PIL import Image
+img = Image.open()
+
+# display image using streamlit
+# width is used to set the width of an image
+st.image(img, width=300)
 
 
 
